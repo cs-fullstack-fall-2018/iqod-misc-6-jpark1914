@@ -1,11 +1,11 @@
 var asterik = "*";
-var number = 4;
-var num;
+var something = "";
+
 function starsAndNumbers(x)
 {
     for(var i=1; i<x+1; i++) {
-        console.log(x * asterik);
-        console.log(i.toString());
+        something += (asterik);
+        console.log(something + i)
     }
 }
-starsAndNumbers(4);
+starsAndNumbers(50);
